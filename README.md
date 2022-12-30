@@ -1,5 +1,6 @@
-# Ê¹ÓÃ·½·¨
-- ½«ÎÄ¼ş¼Ğ image ¡¢xml ºÍ ÎÄ¼ş index.xml ½øĞĞzip¸ñÊ½Ñ¹Ëõ
-- Ñ¹ËõÎÄ¼şÃû³ÆÎª£ºduiengineskin.zip
-- ¹Ø±Õ°Ù¶ÈÍøÅÌ
-- Ìæ»»°Ù¶ÈÍøÅÌ°²×°Ä¿Â¼ÏÂ \BaiduNetdisk\skin\duiengineskin.zip ÎÄ¼ş
+# ä½¿ç”¨æ–¹æ³•
+- å°†æ–‡ä»¶å¤¹ image ã€xml å’Œ æ–‡ä»¶ index.xml è¿›è¡Œzipæ ¼å¼å‹ç¼©
+- å‹ç¼©æ–‡ä»¶åç§°ä¸ºï¼šduiengineskin.zip
+- å…³é—­ç™¾åº¦ç½‘ç›˜
+- æ›¿æ¢ç™¾åº¦ç½‘ç›˜å®‰è£…ç›®å½•ä¸‹ \BaiduNetdisk\skin\duiengineskin.zip æ–‡ä»¶
+## ä»…ä¾›å¨±ä¹ï¼Œå‹¿ä½œä»–ç”¨ï¼
