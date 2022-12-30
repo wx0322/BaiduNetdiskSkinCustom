@@ -1,0 +1,37 @@
+<layer name="EnterpriseSpaceCardWnd" width="340" height="352" appwin="0" toolwindow="1" ncRect="5,5,5,5" translucent="1">
+  <body>
+    <dlg name="dlg_enterprise_space" pos="0,0,-0,-0" skin="usercard_notvip_bg">
+      <listboxex name="list_enterprise_space" pos="14,34,-15,-14" itemheight="75" virtual="1" sbenable="2" show="1">
+        <template>
+          <img name="enterprise_bkg" pos="0,0,-0,-0" skin="enterprise_item_hover" show="0"/>
+          <text name="enterprise_head" pos="16,13,@44,@44" font="0804:微软雅黑" crtext="FFFFFF" align="center" crbg="0065DD" translucent="0"/>
+          <img name="enterprise_head_image" pos="16,13,@44,@44" show="0"/>
+          <img name="personal_space_head" pos="16,13,@44,@44" skin="titlepanel_default_head" show="0"/>
+          <img name="img_enterprise_head_frame" pos="16,13,@44,@44" skin="enterprise_head_frame"/>
+          <img name="enterprise_vip" pos="[-16,[-16,@18,@18" skin="enterprise_vip_mark" show="1"/>
+          <link name="enterprise_name" pos="74,15" crtext="03081A" font="0200:微软雅黑" dotted="1"></link>
+          <text name="txt_enterprise_quota" pos="74,37" font="0000:微软雅黑" crtext="878C9C" sdotted="1"/>
+          <text name="txt_about_expire" pos="74,52" font="0000:微软雅黑" crtext="FF436A" sdotted="1">%str1563%</text>
+          <img name="enterprise_select_mark" pos="-28,|-7" width="14" height="14" skin="enterprise_select_btn" show="0"/>
+        </template>
+      </listboxex>
+      <dlg name="dlg_txt" pos="14,[0,@300,@12" skin="enterprise_head_frame">
+        <link name="btn_cert_link" pos="0,0,-0,@12"  font="0004:微软雅黑" crtext="0065DD" cursor="hand" align="center">%str1571%</link>
+      </dlg>
+    </dlg>
+    <dlg name="dlg_guide" pos="0,0,-0,-0" skin="usercard_notvip_bg">
+      <dlg pos="20,34,@320,@70" skin="usercard_notvip_bg">
+        <imgbtn name="btn_group" pos="0,0,@320,@70"  skin="enterprise_guide_list" cursor="hand"></imgbtn>
+        <img pos="12,12,@42,@42" skin="enterprise_group"></img>
+        <text pos="66,16" class="cls_usercard_channel_title_txt">%str1564%</text>
+        <text pos="66,36" class="cls_usercard_channel_subtitle_txt">%str1565%</text>
+      </dlg>
+      <dlg pos="20,[0,@320,@70" skin="usercard_channel_info_bgk">
+        <imgbtn name="btn_cert" pos="0,0,-1,-1"  skin="enterprise_guide_list" cursor="hand"></imgbtn>
+        <img pos="12,12,@42,@42" skin="enterprise_cert"></img>
+        <text pos="66,16" class="cls_usercard_channel_title_txt">%str1566%</text>
+        <text pos="66,36" class="cls_usercard_channel_subtitle_txt">%str1567%</text>
+      </dlg>
+    </dlg>
+  </body>
+</layer>
